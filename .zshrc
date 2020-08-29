@@ -21,3 +21,5 @@ PS1+='-> ';
 export PS1;
 
 PATH=$PATH:/usr/local/bin/; export PATH
+
+alias ls='ls --color=auto'

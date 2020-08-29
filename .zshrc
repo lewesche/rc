@@ -22,4 +22,8 @@ export PS1;
 
 PATH=$PATH:/usr/local/bin/; export PATH
 
+# For Mac/BSD
+# alias ls='ls -G'
+
+# For Unix/Linux
 alias ls='ls --color=auto'

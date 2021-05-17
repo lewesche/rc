@@ -1,5 +1,6 @@
 :set number
 
+" :set clipboard=unnamedplus
 set guifont=Consolas:h40
 
 " colo delek
@@ -14,3 +15,10 @@ filetype plugin indent on
 set tabstop=4
 " when indenting with '>', use 4 spaces width
 set shiftwidth=4
+
+filetype plugin indent on
+syntax on
+
+" if has('mouse')
+"   set mouse=a
+" endif
